@@ -1,4 +1,4 @@
-# uw-thalesians.github.io
+# project-website
 This is the repository where our project landing page will be maintained. This is not the website for our actual application. 
 
 ## Setup
