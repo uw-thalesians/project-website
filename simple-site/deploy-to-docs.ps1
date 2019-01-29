@@ -37,7 +37,7 @@ if ($($DOCS_FILES | Measure-Object).Count -ne 0 ) {
 # Only runs if there are files besides CNAME in docs
 if ($Clean -and $FILES_EXIST) {
     Write-Output "Cleanning up docs"
-    Remove-Item -Path "$DOCS_PATH\*" -Exclude "CNAME" -Recurse -Force
+    Remove-Item -Path "$DOCS_PATH\*" -Exclude "CNAME" -Recurse -Force -ErrorAction Stop
     Set-Variable -Name FILES_EXIST -Value $false
 }
 
