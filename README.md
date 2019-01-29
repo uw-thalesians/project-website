@@ -6,7 +6,7 @@ This repository is setup to host a GitHub Pages site. This site can be accessed 
 
 After June 2019, the subdomain hosting for this GitHub Pages site should be removed. 
 
-GitHub Pages is built from /docs folder in the master branch. You will notice that there is a file named "CNAME" in this directory. Do not edit or remove this file. This file is used by github to associate our gh-pages site with our custom domain name. Note: GitHub Pages is a static site hosting service and doesn't support server-side code such as, PHP, Ruby, or Python.
+GitHub Pages is served from /docs directory in the master branch. You should not edit files in the /docs directory directly. You will notice that there is a file named "CNAME" in this directory. Do not edit or remove this file. This file is used by github to associate our gh-pages site with our custom domain name. Note: GitHub Pages is a static site hosting service and doesn't support server-side code such as, PHP, Ruby, or Python.
 
 Currently, this site's content is developed in the simple-site subdirectory. Please see the section below entitled [Simple-Site Setup and Use](#simple-site-setup-and-use)
 
