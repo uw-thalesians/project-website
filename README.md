@@ -2,7 +2,7 @@
 This is the repository where our project landing page will be maintained. This is not the website for our actual application. 
 
 ## [Setup](#setup)
-This repository is setup to host a GitHub Pages site. This site can be accessed at: www.capstone.perceptia.info. Please note, when sharing a link to this site, please share uw-thalesians.github.io as this is the persistent link. After January 2020, the domain perceptia.info will expire and this website will only be accessible from uw-thalesians.github.io.
+This repository is setup to host a GitHub Pages site. This site can be accessed at: uw-thalesians.github.io/project-website. Please note, when sharing a link to this site, please share uw-thalesians.github.io/project-website as this is the persistent link. After January 2020, the domain perceptia.info will expire and this website will only be accessible from uw-thalesians.github.io/project-website. This site will resolve to www.capstone.perceptia.info. 
 
 After June 2019, the subdomain hosting for this GitHub Pages site should be removed. 
 
