@@ -1,5 +1,5 @@
 Param (
-    [Switch]$Clean = $fales
+    [Switch]$Clean = $false
 )
 ## Deploy to Docs
 # The purpose of this script is to automate coppying the contents of the src folder to the docs folder.
@@ -37,7 +37,7 @@ if ($($DOCS_FILES | Measure-Object).Count -ne 0 ) {
 # Only runs if there are files besides CNAME in docs
 if ($Clean -and $FILES_EXIST) {
     Write-Output "Cleanning up docs"
-    Remove-Item -Path $DOCS_PATH -Exclude "CNAME" -Verbose -Recurse -Force
+    Remove-Item -Path "$DOCS_PATH\*" -Exclude "CNAME" -Recurse -Force
     Set-Variable -Name FILES_EXIST -Value $false
 }
 
@@ -56,4 +56,4 @@ if ($FILES_EXIST) {
 Write-Output "Coppying src to docs..."
 
 # Coppies everything from the src directory to the docs directory
-Copy-Item "$SIMPLE_SITE_PATH\src\*" -Destination "$DOCS_PATH" -Recurse -Verbose
+Copy-Item "$SIMPLE_SITE_PATH\src\*" -Destination "$DOCS_PATH" -Recurse -Force
