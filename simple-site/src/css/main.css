@@ -3,20 +3,11 @@ html, body {
     color: #777;
     line-height: 1.8;
     height: 100%;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .full-height {
     height: 100%;
-}
-
-.autoscroll {
-    overflow-y: auto;
-    height: 89vh;
-}
-
-footer {
-    display: none!important;
 }
 
 /* Navigation */
@@ -57,18 +48,8 @@ footer {
 
 
 @media screen and (min-width: 992px){
-    .autoscroll {
-        overflow-y: auto;
-        height: 80vh;
-        margin-left: 17px;
-    }
-
     .nav-link:hover {
         transform: rotate(360deg);
-    }
-
-    footer {
-        display: flex!important;
     }
 
     .navbar-brand {
