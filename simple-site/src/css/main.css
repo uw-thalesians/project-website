@@ -42,10 +42,9 @@ html, body {
     width: 15%;
 }
 
-.linkedln:hover {
-
+#perceptia_title{
+    padding: 70px 0;
 }
-
 
 @media screen and (min-width: 992px){
     .nav-link:hover {
