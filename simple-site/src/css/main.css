@@ -6,7 +6,7 @@ html, body {
     overflow-y: auto;
 }
 
-#perceptia_title, #scope, #users_info {
+#perceptia_title, #scope, #users_info, #solution {
     font-family: 'Abril Fatface', cursive;
     padding: 50px 0;
 }
